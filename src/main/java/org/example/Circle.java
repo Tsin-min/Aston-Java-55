@@ -10,7 +10,6 @@ public class Circle implements Shape {
         this.fillColor = fillColor;
         this.borderColor = borderColor;
     }
-
     @Override
     public double getPerimeter() {
         return 2 * Math.PI * radius;

@@ -9,7 +9,7 @@ public class LessonFour{
         };
 
         for (Shape shape : shapes) {
-            shape.printInfo();   // дефолтный метод интерфейса
+            shape.printInfo();
         }
     }
 }
