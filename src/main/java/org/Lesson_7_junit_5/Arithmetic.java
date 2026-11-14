@@ -1,4 +1,4 @@
-package Lesson_7_junit_5;
+package org.Lesson_7_junit_5;
 
 public class Arithmetic {
     public static int add(int a, int b)      { return a + b; }

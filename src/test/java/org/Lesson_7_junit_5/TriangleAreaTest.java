@@ -1,4 +1,4 @@
-package Lesson_7_junit_5;
+package org.Lesson_7_junit_5;
 
 import static org.junit.jupiter.api.Assertions.*;
 

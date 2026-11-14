@@ -1,4 +1,4 @@
-package Lesson_7_junit_5;
+package org.Lesson_7_junit_5;
 
 public class Factorial {
     public static long calculate(int n) {
@@ -13,6 +13,6 @@ public class Factorial {
     }
 
     public static void main(String[] args) {
-        System.out.println("Факториал числа найден = " + calculate(5));
+        System.out.println("Факториал найден = " + calculate(5));
     }
 }
