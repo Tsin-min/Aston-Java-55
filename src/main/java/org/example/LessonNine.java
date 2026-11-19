@@ -78,7 +78,7 @@ public class LessonNine {
     }
 
     /**
-     * Метод нажатия на кнопку отмены сохранения куков
+     * Метод нажатия на кнопку отмены сохранения cookie
      */
     public void clickCookieCancelBtn() {
         cookieCancelBtn.click();
@@ -99,7 +99,7 @@ public class LessonNine {
      * @param urlLink ссылка
      * @return код ответа на ссылку
      * @throws MalformedURLException ссылка имеет не корректный формат
-     * @throws IOException           не удается созадть коннект
+     * @throws IOException           не удается создать коннект
      */
     public int getRespCode(String urlLink) throws MalformedURLException, IOException {
         URL url = new URL(urlLink);
