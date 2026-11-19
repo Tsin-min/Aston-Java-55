@@ -27,7 +27,7 @@ public class LessonNine {
     private WebElement paySectionTitle;
 
     /**
-     * Определение локатора для кнопки отмены сохранения куков
+     * Определение локатора для кнопки отмены сохранения cookie
      */
     @FindBy(css = "div.cookie.show button.cookie__cancel")
     private WebElement cookieCancelBtn;
@@ -149,9 +149,9 @@ public class LessonNine {
     }
 
     /**
-     * Возвращает отображается ли картинка именем src
+     * Возвращается отображение картинки с именем src
      * @param scr имя картинки
-     * @return отображатся ли картинка
+     * @return отображается ли картинка
      */
     public boolean isDisplayedImg(String scr) {
         for (WebElement payImage : payImgages) {
