@@ -16,7 +16,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class LessonNineTest {
     public static LessonNine mtsHomePage;
     public static WebDriver driver;
-    public static final String PAGE_URL = "http://mts.by";
+    public static final String PAGE_URL = "https://mts.by";
 
     @BeforeAll
     static void before() {
